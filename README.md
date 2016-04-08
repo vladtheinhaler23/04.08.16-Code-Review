@@ -10,7 +10,7 @@ _This is a simple web app that uses Object-Oriented JavaScript to let a user ent
 
 ## _Setup/Installation Requirements_
 
-* _Open the webpage_
+*_Open the webpage_
 *_Order a Pizza_
 * _See how much your pizza will cost_
 
@@ -18,7 +18,7 @@ _This is a simple web app that uses Object-Oriented JavaScript to let a user ent
 
 ## Known Bugs
 
-_No known bugs! Reports Welcome!_
+_No known bugs. Reports Welcome!_
 
 ## Support and contact details
 
