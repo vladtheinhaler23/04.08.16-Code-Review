@@ -58,7 +58,7 @@ $(document).ready(function() {
       var pizzaPrice = newPizza.calculatePrice();
 
 
-      $("#results").prepend("<h3>" + newPizza.displayPizza() + "<br>" + "<br>" + "Price: $" + pizzaPrice + ".00" + "</h3>");
+      $("#results").prepend("<h3 id='pizzaResults'>" + newPizza.displayPizza() + "<br>" + "<br>" + "Price: $" + pizzaPrice + ".00" + "</h3>");
       $(".pizza").show();
       $("#orderForm").hide();
 

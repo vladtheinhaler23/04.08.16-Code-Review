@@ -2,6 +2,40 @@
   min-height: 500px;
   margin-top: 100px;
   margin-bottom: 300px;
+  font-family: 'Lobster', cursive;
+  box-shadow: 10px 10px 5px #008148;
+  background-color: #EF2917;
+  text-shadow: 1px 1px 1px #C6C013;
+}
+.orderJumbo{
+  min-height: 500px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  font-family: 'Maven Pro', sans-serif;;
+  box-shadow: 10px 10px 5px #008148;
+  background-color: #EF2917;
+  text-shadow: 1px 1px 1px #C6C013;
+}
+.pizzaJumbo {
+  min-height: 500px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  font-family: 'Permanent Marker', cursive;
+  box-shadow: 10px 10px 5px #008148;
+  background-color: #EF2917;
+  text-shadow: 1px 1px 1px #C6C013;
+
+}
+#pizzaResults {
+  font-size: 3em;
+  background-color: #D8DBE2;
+  padding: 20px;
+  border-style: inset;
+  border-width: thick;;
+  border-color: #3F4045;
+}
+#jumboSubText {
+  font-family: 'Righteous', cursive;
 }
 .andyOllie {
   float: left;
@@ -19,13 +53,67 @@
 }
 
 .orderBtn {
-  background-color: lightblue;
-  border-radius: 25%;
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #EF8A17;
+  margin-top: 10px;
+  margin-left: 50px;
+  border-radius: 50%;
   border-style: outset;
-  border-width: thick;
-  border-color: gray;
+  border-width: medium;
+  border-color: #C6C013;
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: 1px 1px 1px #C6C013;
 }
-
+.orderBtn:hover {
+  border-style: inset;
+  border-width: medium;
+  border-color: #EF8A17;
+  background-color: #C6C013;
+  text-shadow: 1px 1px 1px #EF2917;
+}
+.placeOrder {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #EF8A17;
+  margin-top: 10px;
+  margin-left: 50px;
+  border-radius: 50%;
+  border-style: outset;
+  border-width: medium;
+  border-color: #C6C013;
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: 1px 1px 1px #C6C013;
+  float: right;
+}
+.placeOrder:hover {
+  border-style: inset;
+  border-width: medium;
+  border-color: #EF8A17;
+  background-color: #C6C013;
+  text-shadow: 1px 1px 1px #EF2917;
+}
+.restart {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #EF8A17;
+  margin-top: 10px;
+  margin-left: 50px;
+  border-radius: 50%;
+  border-style: outset;
+  border-width: medium;
+  border-color: #C6C013;
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: 1px 1px 1px #C6C013;
+  float: right;
+}
+.restart:hover {
+  border-style: inset;
+  border-width: medium;
+  border-color: #EF8A17;
+  background-color: #C6C013;
+  text-shadow: 1px 1px 1px #EF2917;
+}
 #orderForm {
   display: none;
 }
