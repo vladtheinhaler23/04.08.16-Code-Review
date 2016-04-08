@@ -72,8 +72,19 @@ $(document).ready(function() {
     $(".welcome").hide();
   })
 
+  $(".restart").click(function(event) {
+    event.preventDefault();
+
+    $("#results").empty();
+    $(".pizza").hide();
+    $("#orderForm").show();
+
+    $("#size").val("")
+    $("#sauce").val("")
+    $("#meat").val("")
+    $("#veggies").val("")
 
 
-
+});
 
 });
