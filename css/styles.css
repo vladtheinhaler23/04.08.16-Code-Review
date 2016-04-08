@@ -1,10 +1,23 @@
 .welcomeJumbo {
-  min-height: 400px;
+  min-height: 500px;
   margin-top: 100px;
   margin-bottom: 300px;
-  background-color: blue;
-
 }
+.andyOllie {
+  float: left;
+}
+.jimmy-jr {
+ float: left;
+ min-height: 400px;
+ width: auto;
+}
+
+.pestos-outside {
+  max-width: 55%;
+  height: : auto;
+  float: right;
+}
+
 .orderBtn {
   background-color: lightblue;
   border-radius: 25%;
