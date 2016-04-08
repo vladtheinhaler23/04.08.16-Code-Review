@@ -1,0 +1,21 @@
+.welcomeJumbo {
+  min-height: 400px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  background-color: blue;
+
+}
+.orderBtn {
+  background-color: lightblue;
+  border-radius: 25%;
+  border-style: outset;
+  border-width: thick;
+  border-color: gray;
+}
+
+#orderForm {
+  display: none;
+}
+.pizza {
+  display: none;
+}
