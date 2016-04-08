@@ -36,12 +36,7 @@ Pizza.prototype.calculatePrice = function () {
 Pizza.prototype.displayPizza = function () {
   return "Your Pizza: " + "<br>" + "<br>" + "Size: " + this.size + "<br>" + "Sauce: " + this.sauce + "<br>" + "Meat: " + this.meat + "<br>" + "Veggies: " + this.veggies
 }
-Pizza.prototype.delivery = function (street, city, state){
-  this.street = street
-  this.city = city
-  this.state = state
-  return "Delivery to: " + "<br>" + "<br>" + this.street + "<br>" + this.city + "<br>" + this.state
-}
+
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();

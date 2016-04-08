@@ -30,3 +30,9 @@ $("form#orderDeliveryButton").submit(function(event) {
   console.log(inputtedStreet);
 
 })
+Pizza.prototype.delivery = function (street, city, state){
+  this.street = street
+  this.city = city
+  this.state = state
+  return "Delivery to: " + "<br>" + "<br>" + this.street + "<br>" + this.city + "<br>" + this.state
+}
